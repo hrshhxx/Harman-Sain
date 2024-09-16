@@ -1,0 +1,9 @@
+sum even=0
+sum odd=0
+for i in range (1,31):
+  if(i%2==0):
+    sum even+=i
+  else: 
+  sum odd+=i
+  print("sum of even number from 1 to 30:",sum even)
+  print("sum of odd number from 1 to 30:",sum odd)

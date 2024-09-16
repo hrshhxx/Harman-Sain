@@ -1,0 +1,8 @@
+name=input("Enter your name:")
+age=int(input ("Enter your age:"))
+if age>=18:
+   vote=input ("You are eligible for vote")
+print("thank you, " + name)
+print ("your vote for" + vote + "has been recorded.")
+else: 
+   print ("sorry,"+ name + ",you are not eligible to vote")

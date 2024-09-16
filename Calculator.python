@@ -1,0 +1,18 @@
+operator=input("Enter an operator (+,-,*,/):")
+a=float(input("Enter the first number: "))
+b=float(input("Enter the second number: "))
+if operator=='+':
+  result=a+b
+  print(result)
+elif operator=='-':
+  result=a-b
+  print(result)
+elif operator=='*':
+  result=a*b
+  print (result)
+elif operator=='/':
+  if b !=0:
+    result=a/b
+    print (result)
+  else: print ("Error!! You can't devide a number by 0")
+else:print("invalid operator")
